@@ -48,7 +48,7 @@ body {
 }
 
 .features ul {
-	margin-left: 4vw;
+	margin: 0 4vw;
 }
 
 .commerce {
@@ -102,4 +102,38 @@ h1 {
 #price {
 	margin-top: 1vw;
 	font-size: 1.6vw;
-} 
+}
+
+
+@media (max-width: 680px) {
+
+  	h1 {
+		font-size: 6vw;
+	}
+
+	.features, #c-right {
+		display: none;
+	}
+
+	#c-left {
+		width: 100%;
+	}
+
+	#button {
+		font-size: 5vw;
+		padding: 2vw 4vw;
+	}
+
+	#price {
+		font-size: 3vw;
+	}
+
+	.commerce {
+		height: 100%;
+	}
+
+	.left {
+		/*background: yellow;*/
+	}
+
+}
