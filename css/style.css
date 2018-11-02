@@ -108,7 +108,8 @@ h1 {
 @media (max-width: 680px) {
 
   	h1 {
-		font-size: 6vw;
+		font-size: 4vw;
+		line-height: 4.6vw;
 	}
 
 	.features, #c-right {
