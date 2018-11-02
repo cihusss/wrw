@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+html, body { height: 100%; display: flex; flex-direction: column; }
+
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -13,6 +15,7 @@ body {
 .wrapper {
 	background: yellow;
 	display: flex;
+	height: 100%;
 }
 
 .left {
@@ -22,6 +25,7 @@ body {
 	background: #fff;
 	width: 50%;
 	padding: 5vw;
+	justify-content: center;
 }
 
 .right {
